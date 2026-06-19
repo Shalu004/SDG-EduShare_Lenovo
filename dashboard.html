@@ -1,37 +1,104 @@
-<h1 style="text-align:center;margin:30px;">
-Learning Resources
-</h1>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="cards">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduShare Resources</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
 
-<div class="card">
-<h3>Web Development</h3>
-<p>HTML, CSS, JavaScript, React</p>
-</div>
+<body>
 
-<div class="card">
-<h3>Python</h3>
-<p>Programming and Automation</p>
-</div>
+    <!-- Header -->
+    <header>
+        <div class="logo">EduShare</div>
 
-<div class="card">
-<h3>Artificial Intelligence</h3>
-<p>Machine Learning and AI</p>
-</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Resources</a>
+            <a href="career.html">Career</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
 
-<div class="card">
-<h3>Interview Preparation</h3>
-<p>DSA and Aptitude Resources</p>
-</div>
+    <!-- Title -->
+    <h1 style="text-align:center; margin-top:40px;">
+        Learning Resources
+    </h1>
 
-<div class="card">
-<h3>Cloud Computing</h3>
-<p>AWS, Azure and DevOps</p>
-</div>
+    <p style="text-align:center; margin-bottom:20px;">
+        Explore free learning materials and career resources.
+    </p>
 
-<div class="card">
-<h3>Career Guidance</h3>
-<p>Internships and Placement Tips</p>
-</div>
+    <!-- Search Bar -->
+    <div style="text-align:center; margin-bottom:30px;">
+        <input
+            type="text"
+            id="search"
+            placeholder="Search Resources..."
+            onkeyup="searchResource()"
+            style="
+                width:60%;
+                padding:12px;
+                border-radius:8px;
+                border:1px solid #ccc;
+                font-size:16px;">
+    </div>
 
-</div>
+    <!-- Resource Cards -->
+    <section class="cards">
+
+        <div class="card">
+            <h3>Web Development</h3>
+            <p>HTML, CSS, JavaScript, React, Node.js</p>
+        </div>
+
+        <div class="card">
+            <h3>Python Programming</h3>
+            <p>Python basics, automation, data analysis</p>
+        </div>
+
+        <div class="card">
+            <h3>Artificial Intelligence</h3>
+            <p>Machine Learning, Deep Learning, AI Tools</p>
+        </div>
+
+        <div class="card">
+            <h3>Interview Preparation</h3>
+            <p>DSA, aptitude, coding interview questions</p>
+        </div>
+
+        <div class="card">
+            <h3>Cloud Computing</h3>
+            <p>AWS, Azure, DevOps fundamentals</p>
+        </div>
+
+        <div class="card">
+            <h3>Career Guidance</h3>
+            <p>Internship opportunities and placement tips</p>
+        </div>
+
+        <div class="card">
+            <h3>Data Science</h3>
+            <p>Statistics, Pandas, NumPy, Visualization</p>
+        </div>
+
+        <div class="card">
+            <h3>Cyber Security</h3>
+            <p>Network Security, Ethical Hacking Basics</p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>SDG 4 - Quality Education | EduShare 2026</p>
+        <p>Developed by Shalu Kumari</p>
+    </footer>
+
+</body>
+
+</html>
